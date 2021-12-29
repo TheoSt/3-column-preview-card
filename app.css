@@ -1,0 +1,192 @@
+body {
+    margin:0;
+    background-color:hsl(0, 0%, 95%);
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+
+#container {
+    width:50%;
+    height:50vh;
+    display:flex;
+    justify-content: center;
+}
+
+#sedans, #suvs, #luxury {
+    display:flex;
+    flex-direction: column;
+    padding:5%;
+}
+
+img {
+    width:30%;
+}
+
+#sedans {
+    background-color:hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color:hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color:hsl(179, 100%, 13%);
+}
+
+.mainInfo {
+    height:100%;
+}
+
+.mainInfo h2 {
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size:2em;
+}
+
+.mainInfo p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif; 
+    font-weight:400;
+}
+
+button {
+    background-color:hsl(0, 0%, 95%);
+    border-radius:20px;
+    border-style:none;
+    padding:5% 10%;
+    width:70%;
+    font-family: 'Lexend Deca', sans-serif; 
+    font-size:0.9em;
+}
+
+#sedans button {
+    color:hsl(31, 77%, 52%); 
+}
+
+#sedans button:hover {
+    color:white;
+    border:2px solid white;
+    background-color:hsl(31, 77%, 52%); 
+}
+
+#suvs button{
+    color:hsl(184, 100%, 22%);
+}
+
+#suvs button:hover {
+    color:white;
+    border:2px solid white;
+    background-color:hsl(184, 100%, 22%);
+}
+
+#luxury button {
+    color:hsl(179, 100%, 13%);
+}
+
+#luxury button:hover {
+    color:white;
+    border:2px solid white;
+    background-color:hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width:320px) {
+    body {
+        font-size:0.5em;
+    }
+    #container {
+        flex-direction: column;
+    }
+    button {
+        width:60%;
+    }
+
+    #sedans,#suvs,#luxury {
+        padding:10%;
+    }
+    
+}
+
+@media only screen and (min-width:481px) {
+    body {
+        font-size:0.6em;
+    }
+    #container {
+        width:40%;
+    }
+    #sedans,#suvs,#luxury {
+        padding:15%;
+    }
+    button {
+        margin-top:10%;
+        width:70%;
+    }
+}
+
+@media only screen and (min-width:769px) {
+    body {
+        font-size:1em;
+    }
+   #container {
+       flex-direction: row;
+       width:80%;
+   }
+
+   #sedans, #suvs, #luxury {
+        padding:5%;
+   }
+
+   .mainInfo {
+       height:90%;
+   }
+   button {
+       margin-top:10%;
+       width:80%;
+   }
+}
+
+@media only screen and (min-width:1025px) {
+    body {
+        font-size:1em;
+    }
+
+    #container {
+        height:50vh;
+    }
+}
+
+@media only screen and (min-width:1201px) {
+    body {
+        font-size:1.1em;
+    }
+
+    #container {
+        width:90%;
+        height:55vh;
+    }
+}
+
+@media only screen and (min-width:1601px) {
+    body {
+        font-size:1.2em;
+    }
+
+    #container {
+        height:60vh;
+    }
+}
+
+
+@media only screen and (min-width:2001px) {
+    body {
+        font-size:1.5em;
+    }
+}
+
