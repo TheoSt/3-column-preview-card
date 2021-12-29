@@ -99,16 +99,18 @@ button {
 
 @media only screen and (min-width:320px) {
     body {
-        font-size:0.5em;
+        font-size:0.4em;
     }
 
     #container {
+        width:30%;
         flex-direction: column;
-        justify-content:center;
         align-items:center;
+        justify-content: center;
     }
     button {
-        width:60%;
+        width:70%;
+        margin-top:5%;
     }
 
     #sedans,#suvs,#luxury {
@@ -119,33 +121,35 @@ button {
 
 @media only screen and (min-width:481px) {
     body {
-        font-size:0.6em;
+        font-size:0.5em;
     }
     #container {
         width:40%;
-    }
-    #sedans,#suvs,#luxury {
-        padding:15%;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+
     }
     button {
         margin-top:10%;
-        width:70%;
+        width:60%;
     }
 }
 
 @media only screen and (min-width:769px) {
     body {
-        font-size:1em;
+        font-size:0.7em;
     }
    #container {
        flex-direction: row;
+       justify-content:center;
+       align-items: center;
        width:80%;
    }
 
    #sedans, #suvs, #luxury {
         padding:5%;
    }
-
    .mainInfo {
        height:90%;
    }
@@ -157,7 +161,7 @@ button {
 
 @media only screen and (min-width:1025px) {
     body {
-        font-size:1em;
+        font-size:0.8em;
     }
 
     #container {
@@ -167,7 +171,7 @@ button {
 
 @media only screen and (min-width:1201px) {
     body {
-        font-size:1.1em;
+        font-size:0.9em;
     }
 
     #container {
@@ -178,7 +182,7 @@ button {
 
 @media only screen and (min-width:1601px) {
     body {
-        font-size:1.2em;
+        font-size:1em;
     }
 
     #container {
@@ -189,7 +193,7 @@ button {
 
 @media only screen and (min-width:2001px) {
     body {
-        font-size:1.5em;
+        font-size:1.2em;
     }
 }
 
