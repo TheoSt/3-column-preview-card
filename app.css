@@ -121,7 +121,7 @@ button {
 
 @media only screen and (min-width:481px) {
     body {
-        font-size:0.5em;
+        font-size:0.6em;
     }
     #container {
         width:40%;
