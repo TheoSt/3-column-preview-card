@@ -101,11 +101,11 @@ button {
     body {
         font-size:0.5em;
     }
-    main {
-        align-items:center;
-    }
+
     #container {
         flex-direction: column;
+        justify-content:center;
+        align-items:center;
     }
     button {
         width:60%;
